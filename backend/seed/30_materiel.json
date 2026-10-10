@@ -1,0 +1,1393 @@
+{
+ "_comment": "Equipment and uniforms. Specs are transcribed from the cited sources; values not found are omitted (never estimated). Unit-level use (unit_equipment) is only recorded where documented — national service never implies unit use.",
+ "equipment": [
+  {
+   "slug": "tanque-mark-i",
+   "name": "Tanque Mark I",
+   "name_original": "Tank Mark I",
+   "category": "tank",
+   "type_label": "Tanque pesado",
+   "origin_polity": "reino-unido-1801",
+   "manufacturer": "William Foster & Co. (Lincoln); Metropolitan Carriage (Birmingham)",
+   "designer": "William Tritton; Walter Gordon Wilson",
+   "design_period": "1915",
+   "production_period": "1916",
+   "number_built": "150",
+   "service_from": "1916-09-15",
+   "service_from_precision": "day",
+   "summary": "Primeiro tanque empregado em combate, em Flers–Courcelette (15 set 1916). Produzido em versões 'male' (canhões de 6 libras) e 'female' (metralhadoras).",
+   "operational_history": "Empregado pela Seção Pesada do Machine Gun Corps na Batalha do Somme a partir de 15 de setembro de 1916. Sucedido pelos Mark II a IX.",
+   "specs": [
+    {
+     "key": "crew",
+     "label": "Tripulação",
+     "value": "8"
+    },
+    {
+     "key": "weight",
+     "label": "Peso",
+     "value": "28 (male) / 27 (female)",
+     "unit": "toneladas longas"
+    },
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "9,91 (com cauda) / 7,75 (sem cauda)",
+     "unit": "m"
+    },
+    {
+     "key": "armour",
+     "label": "Blindagem",
+     "value": "6–12",
+     "unit": "mm"
+    },
+    {
+     "key": "armament_male",
+     "label": "Armamento (male)",
+     "value": "2 canhões Hotchkiss QF 6 pdr; 3 metralhadoras Hotchkiss .303"
+    },
+    {
+     "key": "armament_female",
+     "label": "Armamento (female)",
+     "value": "4 metralhadoras Vickers .303; 1 metralhadora Hotchkiss .303"
+    },
+    {
+     "key": "engine",
+     "label": "Motor",
+     "value": "Daimler-Knight 6 cilindros, válvulas de camisa, 16 litros, gasolina"
+    },
+    {
+     "key": "power",
+     "label": "Potência",
+     "value": "105",
+     "unit": "hp"
+    },
+    {
+     "key": "speed",
+     "label": "Velocidade máxima",
+     "value": "3,7",
+     "unit": "mph (≈6 km/h)"
+    },
+    {
+     "key": "range",
+     "label": "Raio de ação",
+     "value": "23,6",
+     "unit": "milhas (≈38 km)"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-british-heavy-tanks-ww1",
+     "note": "Especificações citando Ellis & Chamberlain (1969), p. 19."
+    }
+   ]
+  },
+  {
+   "slug": "metralhadora-vickers",
+   "name": "Metralhadora Vickers",
+   "name_original": "Vickers machine gun",
+   "category": "machine_gun",
+   "type_label": "Metralhadora pesada",
+   "origin_polity": "reino-unido-1801",
+   "manufacturer": "Vickers",
+   "design_period": "1912",
+   "service_from": "1912-01-01",
+   "wikidata_id": "Q754800",
+   "summary": "Metralhadora pesada refrigerada a água, de calibre .303, padrão do Exército Britânico nas duas guerras mundiais.",
+   "specs": [
+    {
+     "key": "crew",
+     "label": "Guarnição",
+     "value": "3"
+    },
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "1.118",
+     "unit": "mm"
+    },
+    {
+     "key": "barrel",
+     "label": "Cano",
+     "value": "711",
+     "unit": "mm"
+    },
+    {
+     "key": "action",
+     "label": "Funcionamento",
+     "value": "Recuo com reforço a gás"
+    },
+    {
+     "key": "rate",
+     "label": "Cadência",
+     "value": "450–500",
+     "unit": "disparos/min"
+    },
+    {
+     "key": "range",
+     "label": "Alcance efetivo",
+     "value": "2.000",
+     "unit": "m"
+    },
+    {
+     "key": "feed",
+     "label": "Alimentação",
+     "value": "Fita de lona de 250 cartuchos"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-vickers-mg"
+    }
+   ]
+  },
+  {
+   "slug": "fuzil-lee-enfield",
+   "name": "Fuzil Lee–Enfield",
+   "name_original": "Lee–Enfield (SMLE Mk III; No. 4 Mk I)",
+   "category": "small_arm",
+   "type_label": "Fuzil de ferrolho",
+   "origin_polity": "reino-unido-1801",
+   "designer": "James Paris Lee",
+   "number_built": "Mais de 17 milhões (todas as versões)",
+   "service_from": "1895-01-01",
+   "service_to": "1957-01-01",
+   "wikidata_id": "Q723346",
+   "summary": "Família de fuzis de ferrolho de calibre .303 British, padrão do Exército Britânico de 1895 a 1957. Na Primeira Guerra predominava o SMLE Mk III; na Segunda, o No. 4 Mk I.",
+   "specs": [
+    {
+     "key": "cartridge",
+     "label": "Munição",
+     "value": ".303 British"
+    },
+    {
+     "key": "action",
+     "label": "Funcionamento",
+     "value": "Ferrolho"
+    },
+    {
+     "key": "rate",
+     "label": "Cadência",
+     "value": "20–30",
+     "unit": "disparos visados/min"
+    },
+    {
+     "key": "velocity",
+     "label": "Velocidade de saída",
+     "value": "744",
+     "unit": "m/s"
+    },
+    {
+     "key": "range",
+     "label": "Alcance efetivo",
+     "value": "503",
+     "unit": "m"
+    },
+    {
+     "key": "feed",
+     "label": "Alimentação",
+     "value": "Carregador de 10 cartuchos, municiado com clipes de 5"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-lee-enfield"
+    }
+   ]
+  },
+  {
+   "slug": "canhao-qf-18-pounder",
+   "name": "Canhão QF 18 libras",
+   "name_original": "Ordnance QF 18-pounder",
+   "category": "artillery",
+   "type_label": "Canhão de campanha",
+   "origin_polity": "reino-unido-1801",
+   "designer": "Armstrong Whitworth; Vickers; Royal Arsenal",
+   "design_period": "1901",
+   "production_period": "1903–1940",
+   "number_built": "c. 10.469 (Mk I e II)",
+   "service_from": "1904-01-01",
+   "service_to": "1940-01-01",
+   "summary": "Principal canhão de campanha britânico da Primeira Guerra Mundial.",
+   "specs": [
+    {
+     "key": "caliber",
+     "label": "Calibre",
+     "value": "3,3 pol. (83,8 mm)"
+    },
+    {
+     "key": "weight",
+     "label": "Peso",
+     "value": "1.282",
+     "unit": "kg"
+    },
+    {
+     "key": "crew",
+     "label": "Guarnição",
+     "value": "6"
+    },
+    {
+     "key": "rate",
+     "label": "Cadência",
+     "value": "20 (máx.) / 4 (sustentada)",
+     "unit": "disparos/min"
+    },
+    {
+     "key": "velocity",
+     "label": "Velocidade de saída",
+     "value": "1.615",
+     "unit": "pés/s (≈492 m/s)"
+    },
+    {
+     "key": "range",
+     "label": "Alcance (Mk I e II)",
+     "value": "6.525",
+     "unit": "jardas (≈5.966 m)"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-qf-18-pounder"
+    }
+   ]
+  },
+  {
+   "slug": "capacete-brodie",
+   "name": "Capacete Brodie",
+   "name_original": "Brodie helmet (Steel Helmet, Mark I)",
+   "category": "personal_equipment",
+   "type_label": "Capacete de combate",
+   "origin_polity": "reino-unido-1801",
+   "designer": "John Leopold Brodie",
+   "design_period": "1915",
+   "service_from": "1915-01-01",
+   "wikidata_id": "Q924574",
+   "summary": "Capacete de aço britânico patenteado em 1915, distribuído às tropas a partir de 1915–1916.",
+   "cite": [
+    {
+     "source": "wikipedia-brodie-helmet"
+    }
+   ]
+  },
+  {
+   "slug": "mg-08",
+   "name": "Metralhadora MG 08",
+   "name_original": "Maschinengewehr 08",
+   "category": "machine_gun",
+   "type_label": "Metralhadora pesada",
+   "origin_polity": "imperio-alemao",
+   "wikidata_id": "Q573994",
+   "service_from": "1908-01-01",
+   "summary": "Metralhadora pesada alemã derivada do sistema Maxim; arma principal das defesas alemãs no Somme.",
+   "specs": [
+    {
+     "key": "crew",
+     "label": "Guarnição",
+     "value": "4"
+    },
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "1.175",
+     "unit": "mm"
+    },
+    {
+     "key": "barrel",
+     "label": "Cano",
+     "value": "721",
+     "unit": "mm"
+    },
+    {
+     "key": "action",
+     "label": "Funcionamento",
+     "value": "Recuo curto, trava por joelho (toggle)"
+    },
+    {
+     "key": "rate",
+     "label": "Cadência",
+     "value": "450–500",
+     "unit": "disparos/min"
+    },
+    {
+     "key": "range",
+     "label": "Alcance efetivo",
+     "value": "2.000",
+     "unit": "m"
+    },
+    {
+     "key": "feed",
+     "label": "Alimentação",
+     "value": "Fita de tecido de 250 cartuchos"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-mg08"
+    }
+   ]
+  },
+  {
+   "slug": "gewehr-98",
+   "name": "Fuzil Gewehr 98",
+   "name_original": "Gewehr 98",
+   "category": "small_arm",
+   "type_label": "Fuzil de ferrolho",
+   "origin_polity": "imperio-alemao",
+   "designer": "Paul Mauser",
+   "design_period": "1895",
+   "production_period": "1898–1918",
+   "number_built": "Mais de 9.000.000",
+   "service_from": "1898-01-01",
+   "service_to": "1945-01-01",
+   "wikidata_id": "Q166313",
+   "summary": "Fuzil padrão do Exército Imperial Alemão.",
+   "specs": [
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "1.250",
+     "unit": "mm"
+    },
+    {
+     "key": "barrel",
+     "label": "Cano",
+     "value": "740",
+     "unit": "mm"
+    },
+    {
+     "key": "action",
+     "label": "Funcionamento",
+     "value": "Ferrolho"
+    },
+    {
+     "key": "rate",
+     "label": "Cadência",
+     "value": "15",
+     "unit": "disparos/min"
+    },
+    {
+     "key": "velocity",
+     "label": "Velocidade de saída",
+     "value": "878 (munição padrão de 1903)",
+     "unit": "m/s"
+    },
+    {
+     "key": "feed",
+     "label": "Alimentação",
+     "value": "Carregador interno de 5 cartuchos (clipe)"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-gewehr-98"
+    }
+   ]
+  },
+  {
+   "slug": "stahlhelm",
+   "name": "Capacete Stahlhelm M1916",
+   "name_original": "Stahlhelm (M1916)",
+   "category": "personal_equipment",
+   "type_label": "Capacete de combate",
+   "origin_polity": "imperio-alemao",
+   "designer": "Friedrich Schwerd (M1916)",
+   "design_period": "1915",
+   "production_period": "1916",
+   "service_from": "1916-01-01",
+   "wikidata_id": "Q767924",
+   "summary": "Capacete de aço alemão introduzido em 1916; seus derivados permaneceram em uso até a Segunda Guerra Mundial.",
+   "cite": [
+    {
+     "source": "wikipedia-stahlhelm"
+    }
+   ]
+  },
+  {
+   "slug": "fuzil-lebel-1886",
+   "name": "Fuzil Lebel Modelo 1886",
+   "name_original": "Fusil Modèle 1886 (Lebel)",
+   "category": "small_arm",
+   "type_label": "Fuzil de ferrolho",
+   "origin_polity": "franca-terceira-republica",
+   "manufacturer": "Manufactures d'armes de Saint-Étienne, Châtellerault e Tulle",
+   "design_period": "1885–1886",
+   "production_period": "1887–1920",
+   "number_built": "3.450.000",
+   "service_from": "1887-01-01",
+   "wikidata_id": "Q241738",
+   "summary": "Primeiro fuzil militar a usar munição com pólvora sem fumaça; arma de infantaria francesa padrão na Primeira Guerra Mundial.",
+   "specs": [
+    {
+     "key": "cartridge",
+     "label": "Munição",
+     "value": "8×50mmR Lebel"
+    },
+    {
+     "key": "weight",
+     "label": "Peso",
+     "value": "4,18 (descarregado)",
+     "unit": "kg"
+    },
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "130",
+     "unit": "cm"
+    },
+    {
+     "key": "velocity",
+     "label": "Velocidade de saída",
+     "value": "610–700",
+     "unit": "m/s"
+    },
+    {
+     "key": "feed",
+     "label": "Alimentação",
+     "value": "Carregador tubular de 8 cartuchos"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-lebel-1886"
+    }
+   ]
+  },
+  {
+   "slug": "canhao-75-mle-1897",
+   "name": "Canhão de 75 mm Modelo 1897",
+   "name_original": "Canon de 75 mm modèle 1897",
+   "category": "artillery",
+   "type_label": "Canhão de campanha",
+   "origin_polity": "franca-terceira-republica",
+   "design_period": "1891–1896",
+   "production_period": "1897–1940",
+   "number_built": "Mais de 21.000",
+   "service_from": "1898-01-01",
+   "wikidata_id": "Q958738",
+   "summary": "Canhão de tiro rápido com freio hidropneumático de recuo, peça básica da artilharia de campanha francesa.",
+   "specs": [
+    {
+     "key": "caliber",
+     "label": "Calibre",
+     "value": "75",
+     "unit": "mm"
+    },
+    {
+     "key": "crew",
+     "label": "Guarnição",
+     "value": "6"
+    },
+    {
+     "key": "velocity",
+     "label": "Velocidade de saída",
+     "value": "500",
+     "unit": "m/s"
+    },
+    {
+     "key": "max_range",
+     "label": "Alcance máximo",
+     "value": "11.000",
+     "unit": "m"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-canon-75-1897"
+    }
+   ]
+  },
+  {
+   "slug": "m4-sherman",
+   "name": "M4 Sherman",
+   "name_original": "Medium Tank, M4",
+   "category": "tank",
+   "type_label": "Tanque médio",
+   "origin_polity": "estados-unidos",
+   "design_period": "1940",
+   "production_period": "fev 1942 – jul 1945",
+   "number_built": "49.234 (excluindo protótipo)",
+   "service_from": "1942-01-01",
+   "wikidata_id": "Q191643",
+   "summary": "Tanque médio americano produzido em grande número e empregado também por britânicos, canadenses, poloneses, franceses e soviéticos.",
+   "specs": [
+    {
+     "key": "crew",
+     "label": "Tripulação",
+     "value": "5"
+    },
+    {
+     "key": "weight",
+     "label": "Peso",
+     "value": "30,3–38,1 (conforme a variante)",
+     "unit": "t"
+    },
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "5,84–6,27",
+     "unit": "m"
+    },
+    {
+     "key": "armour",
+     "label": "Blindagem",
+     "value": "12,7–177,8 (conforme local e variante)",
+     "unit": "mm"
+    },
+    {
+     "key": "main_gun",
+     "label": "Armamento principal",
+     "value": "Canhão M3 de 75 mm, M1 de 76 mm ou obuseiro M4 de 105 mm"
+    },
+    {
+     "key": "secondary",
+     "label": "Armamento secundário",
+     "value": "Metralhadora M2HB .50; 2 a 4 M1919A4 .30"
+    },
+    {
+     "key": "engine",
+     "label": "Motor (M4/M4A1)",
+     "value": "Continental R975 radial, gasolina"
+    },
+    {
+     "key": "speed",
+     "label": "Velocidade em estrada",
+     "value": "22–30",
+     "unit": "mph (≈35–48 km/h)"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-m4-sherman",
+     "note": "Especificações citando Conners (2013) e Zaloga (2008), p. 57."
+    }
+   ]
+  },
+  {
+   "slug": "sherman-firefly",
+   "name": "Sherman Firefly",
+   "name_original": "Sherman Firefly (Sherman VC e outros)",
+   "category": "tank",
+   "type_label": "Tanque médio (conversão britânica)",
+   "origin_polity": "reino-unido",
+   "design_period": "1943",
+   "number_built": "2.100–2.200",
+   "service_from": "1944-01-01",
+   "wikidata_id": "Q1152505",
+   "summary": "Conversão britânica do M4 Sherman armada com o canhão de 17 libras, capaz de enfrentar Panther e Tiger em distâncias usuais de combate.",
+   "specs": [
+    {
+     "key": "crew",
+     "label": "Tripulação",
+     "value": "4"
+    },
+    {
+     "key": "weight",
+     "label": "Peso",
+     "value": "35,3",
+     "unit": "t"
+    },
+    {
+     "key": "armour",
+     "label": "Blindagem máxima",
+     "value": "89 (frente da torre)",
+     "unit": "mm"
+    },
+    {
+     "key": "main_gun",
+     "label": "Armamento principal",
+     "value": "Canhão QF 17 libras (76,2 mm), 77 projéteis"
+    },
+    {
+     "key": "power",
+     "label": "Potência",
+     "value": "425",
+     "unit": "hp"
+    },
+    {
+     "key": "speed",
+     "label": "Velocidade",
+     "value": "20 sustentada / 25 em arrancadas",
+     "unit": "mph"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-sherman-firefly"
+    }
+   ]
+  },
+  {
+   "slug": "panther",
+   "name": "Panzerkampfwagen V Panther",
+   "name_original": "Panzerkampfwagen V Panther",
+   "category": "tank",
+   "type_label": "Tanque médio",
+   "origin_polity": "alemanha-nazista",
+   "designer": "MAN AG",
+   "manufacturer": "MAN, Daimler-Benz, MNH",
+   "design_period": "1942",
+   "production_period": "1943–1945",
+   "number_built": "c. 6.000",
+   "service_from": "1943-01-01",
+   "service_to": "1945-05-08",
+   "service_to_precision": "attested",
+   "wikidata_id": "Q151960",
+   "summary": "Tanque médio alemão com blindagem frontal inclinada e canhão de 75 mm de alta velocidade.",
+   "specs": [
+    {
+     "key": "crew",
+     "label": "Tripulação",
+     "value": "5"
+    },
+    {
+     "key": "weight",
+     "label": "Peso",
+     "value": "44,8",
+     "unit": "t"
+    },
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "6,87 (casco) / 8,66 (com canhão)",
+     "unit": "m"
+    },
+    {
+     "key": "engine",
+     "label": "Motor",
+     "value": "Maybach HL230 P30 V12, gasolina"
+    },
+    {
+     "key": "power",
+     "label": "Potência",
+     "value": "700",
+     "unit": "PS"
+    },
+    {
+     "key": "speed",
+     "label": "Velocidade",
+     "value": "55 (primeiros modelos) / 46 (modelos posteriores)",
+     "unit": "km/h"
+    },
+    {
+     "key": "range",
+     "label": "Autonomia em estrada",
+     "value": "260",
+     "unit": "km"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-panther"
+    }
+   ]
+  },
+  {
+   "slug": "tiger-i",
+   "name": "Tiger I",
+   "name_original": "Panzerkampfwagen VI Tiger Ausf. E",
+   "category": "tank",
+   "type_label": "Tanque pesado",
+   "origin_polity": "alemanha-nazista",
+   "designer": "Erwin Aders; Henschel & Sohn",
+   "manufacturer": "Henschel",
+   "design_period": "1938–1941",
+   "production_period": "1942–1944",
+   "number_built": "1.347 (incluindo protótipo)",
+   "service_from": "1942-01-01",
+   "service_to": "1945-01-01",
+   "wikidata_id": "Q151221",
+   "summary": "Tanque pesado alemão armado com o canhão de 8,8 cm KwK 36.",
+   "specs": [
+    {
+     "key": "crew",
+     "label": "Tripulação",
+     "value": "5"
+    },
+    {
+     "key": "weight",
+     "label": "Peso",
+     "value": "54 / 57 (peso de combate Ausf. E)",
+     "unit": "t"
+    },
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "6,316 (casco) / 8,45 (com canhão)",
+     "unit": "m"
+    },
+    {
+     "key": "armour",
+     "label": "Blindagem",
+     "value": "25–120",
+     "unit": "mm"
+    },
+    {
+     "key": "main_gun",
+     "label": "Armamento principal",
+     "value": "8,8 cm KwK 36 L/56, 92 projéteis"
+    },
+    {
+     "key": "secondary",
+     "label": "Armamento secundário",
+     "value": "2 metralhadoras MG 34 de 7,92 mm"
+    },
+    {
+     "key": "engine",
+     "label": "Motor",
+     "value": "Maybach HL230 P45 V12, gasolina"
+    },
+    {
+     "key": "power",
+     "label": "Potência",
+     "value": "700",
+     "unit": "PS"
+    },
+    {
+     "key": "speed",
+     "label": "Velocidade em estrada",
+     "value": "45,4",
+     "unit": "km/h"
+    },
+    {
+     "key": "range",
+     "label": "Autonomia",
+     "value": "195 (estrada) / 110 (campo)",
+     "unit": "km"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-tiger-i",
+     "note": "Especificações citando Jentz & Doyle (1993, 2000)."
+    }
+   ]
+  },
+  {
+   "slug": "m1-garand",
+   "name": "Fuzil M1 Garand",
+   "name_original": "U.S. Rifle, Caliber .30, M1",
+   "category": "small_arm",
+   "type_label": "Fuzil semiautomático",
+   "origin_polity": "estados-unidos",
+   "design_period": "1928",
+   "production_period": "1934–1957",
+   "number_built": "5.468.772",
+   "service_from": "1936-01-01",
+   "wikidata_id": "Q204046",
+   "summary": "Fuzil semiautomático padrão da infantaria americana na Segunda Guerra Mundial.",
+   "specs": [
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "1.105",
+     "unit": "mm"
+    },
+    {
+     "key": "barrel",
+     "label": "Cano",
+     "value": "610",
+     "unit": "mm"
+    },
+    {
+     "key": "action",
+     "label": "Funcionamento",
+     "value": "A gás, ferrolho rotativo"
+    },
+    {
+     "key": "rate",
+     "label": "Cadência",
+     "value": "40–50",
+     "unit": "disparos/min"
+    },
+    {
+     "key": "velocity",
+     "label": "Velocidade de saída",
+     "value": "853",
+     "unit": "m/s"
+    },
+    {
+     "key": "feed",
+     "label": "Alimentação",
+     "value": "Clipe en bloc de 8 cartuchos"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-m1-garand"
+    }
+   ]
+  },
+  {
+   "slug": "mg-42",
+   "name": "Metralhadora MG 42",
+   "name_original": "Maschinengewehr 42",
+   "category": "machine_gun",
+   "type_label": "Metralhadora de uso geral",
+   "origin_polity": "alemanha-nazista",
+   "design_period": "1942",
+   "production_period": "1942–1945",
+   "number_built": "423.600",
+   "service_from": "1942-01-01",
+   "wikidata_id": "Q153596",
+   "summary": "Metralhadora alemã de alta cadência, conhecida pela produção em chapa estampada.",
+   "specs": [
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "1.220",
+     "unit": "mm"
+    },
+    {
+     "key": "barrel",
+     "label": "Cano",
+     "value": "530",
+     "unit": "mm"
+    },
+    {
+     "key": "action",
+     "label": "Funcionamento",
+     "value": "Recuo, trava por roletes"
+    },
+    {
+     "key": "rate",
+     "label": "Cadência",
+     "value": "c. 1.200 (900–1.500 conforme o ferrolho)",
+     "unit": "disparos/min"
+    },
+    {
+     "key": "velocity",
+     "label": "Velocidade de saída",
+     "value": "740",
+     "unit": "m/s"
+    },
+    {
+     "key": "feed",
+     "label": "Alimentação",
+     "value": "Fitas de 50 ou 250 cartuchos"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-mg42"
+    }
+   ]
+  },
+  {
+   "slug": "karabiner-98k",
+   "name": "Karabiner 98k",
+   "name_original": "Karabiner 98 kurz",
+   "category": "small_arm",
+   "type_label": "Fuzil de ferrolho",
+   "origin_polity": "alemanha-nazista",
+   "manufacturer": "Mauser e outros fabricantes",
+   "design_period": "1934",
+   "production_period": "1934–1945",
+   "number_built": "Mais de 14.600.000",
+   "service_from": "1935-01-01",
+   "wikidata_id": "Q60134",
+   "summary": "Fuzil padrão das forças armadas alemãs na Segunda Guerra Mundial.",
+   "specs": [
+    {
+     "key": "cartridge",
+     "label": "Munição",
+     "value": "7,92×57mm Mauser"
+    },
+    {
+     "key": "weight",
+     "label": "Peso",
+     "value": "3,7–4,1",
+     "unit": "kg"
+    },
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "1.110",
+     "unit": "mm"
+    },
+    {
+     "key": "velocity",
+     "label": "Velocidade de saída",
+     "value": "760",
+     "unit": "m/s"
+    },
+    {
+     "key": "range",
+     "label": "Alcance efetivo",
+     "value": "500 (miras de ferro)",
+     "unit": "m"
+    },
+    {
+     "key": "feed",
+     "label": "Alimentação",
+     "value": "Carregador interno de 5 cartuchos (clipe)"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-kar98k"
+    }
+   ]
+  },
+  {
+   "slug": "lcvp-higgins",
+   "name": "LCVP (barcaça Higgins)",
+   "name_original": "Landing Craft, Vehicle, Personnel",
+   "category": "landing_craft",
+   "type_label": "Embarcação de desembarque",
+   "origin_polity": "estados-unidos",
+   "wikidata_id": "Q1803024",
+   "summary": "Embarcação de desembarque de casco de madeira e rampa frontal, usada amplamente nos desembarques anfíbios aliados, inclusive na Normandia.",
+   "specs": [
+    {
+     "key": "crew",
+     "label": "Tripulação",
+     "value": "4"
+    },
+    {
+     "key": "length",
+     "label": "Comprimento",
+     "value": "36 pés 3 pol. (≈11 m)"
+    },
+    {
+     "key": "speed",
+     "label": "Velocidade",
+     "value": "12",
+     "unit": "nós"
+    }
+   ],
+   "cite": [
+    {
+     "source": "wikipedia-lcvp"
+    }
+   ]
+  },
+  {
+   "slug": "c-47-skytrain",
+   "name": "Douglas C-47 Skytrain",
+   "name_original": "Douglas C-47 Skytrain / Dakota",
+   "category": "aircraft",
+   "type_label": "Avião de transporte militar",
+   "origin_polity": "estados-unidos",
+   "manufacturer": "Douglas Aircraft Company",
+   "wikidata_id": "Q714326",
+   "summary": "Avião de transporte militar empregado no lançamento de paraquedistas e reboque de planadores no Dia D.",
+   "cite": [
+    {
+     "source": "wikipedia-c47"
+    }
+   ]
+  },
+  {
+   "slug": "hawker-typhoon",
+   "name": "Hawker Typhoon",
+   "name_original": "Hawker Typhoon",
+   "category": "aircraft",
+   "type_label": "Caça-bombardeiro",
+   "origin_polity": "reino-unido",
+   "manufacturer": "Hawker Aircraft",
+   "designer": "Sydney Camm",
+   "production_period": "1941–1945",
+   "service_from": "1941-09-11",
+   "wikidata_id": "Q662123",
+   "summary": "Caça-bombardeiro britânico usado intensamente em ataques ao solo na Normandia.",
+   "cite": [
+    {
+     "source": "wikipedia-typhoon"
+    }
+   ],
+   "service_from_precision": "day"
+  },
+  {
+   "slug": "capacete-m1",
+   "name": "Capacete M1",
+   "name_original": "M1 helmet",
+   "category": "personal_equipment",
+   "type_label": "Capacete de combate",
+   "origin_polity": "estados-unidos",
+   "designer": "Harold G. Sydenham",
+   "manufacturer": "McCord Radiator and Manufacturing Company; Schlueter Manufacturing Company",
+   "number_built": "22 milhões (até 1945)",
+   "service_from": "1941-01-01",
+   "service_to": "1985-01-01",
+   "wikidata_id": "Q1764456",
+   "summary": "Capacete de combate padrão americano a partir de 1941.",
+   "cite": [
+    {
+     "source": "wikipedia-m1-helmet"
+    }
+   ]
+  }
+ ],
+ "equipment_users": [
+  {
+   "equipment": "tanque-mark-i",
+   "polity": "reino-unido-1801",
+   "valid_from": "1916-09-15",
+   "valid_to": "1916-11-18",
+   "valid_to_precision": "attested",
+   "notes": "Uso atestado na Batalha do Somme; data de retirada não cadastrada."
+  },
+  {
+   "equipment": "metralhadora-vickers",
+   "polity": "reino-unido-1801",
+   "valid_from": "1914-07-28",
+   "valid_from_precision": "attested",
+   "valid_to": "1918-11-11",
+   "valid_to_precision": "attested"
+  },
+  {
+   "equipment": "metralhadora-vickers",
+   "polity": "reino-unido",
+   "valid_from": "1939-09-03",
+   "valid_from_precision": "attested"
+  },
+  {
+   "equipment": "fuzil-lee-enfield",
+   "polity": "reino-unido-1801",
+   "valid_from": "1914-07-28",
+   "valid_from_precision": "attested",
+   "valid_to": "1918-11-11",
+   "valid_to_precision": "attested"
+  },
+  {
+   "equipment": "fuzil-lee-enfield",
+   "polity": "reino-unido",
+   "valid_from": "1939-09-03",
+   "valid_from_precision": "attested",
+   "valid_to": "1945-09-02",
+   "valid_to_precision": "attested"
+  },
+  {
+   "equipment": "fuzil-lee-enfield",
+   "polity": "canada",
+   "valid_from": "1939-09-10",
+   "valid_from_precision": "attested",
+   "valid_to": "1945-09-02",
+   "valid_to_precision": "attested"
+  },
+  {
+   "equipment": "canhao-qf-18-pounder",
+   "polity": "reino-unido-1801",
+   "valid_from": "1914-07-28",
+   "valid_from_precision": "attested",
+   "valid_to": "1918-11-11",
+   "valid_to_precision": "attested"
+  },
+  {
+   "equipment": "capacete-brodie",
+   "polity": "reino-unido-1801",
+   "valid_from": "1916-07-01",
+   "valid_from_precision": "attested",
+   "valid_to": "1918-11-11",
+   "valid_to_precision": "attested"
+  },
+  {
+   "equipment": "mg-08",
+   "polity": "imperio-alemao",
+   "valid_from": "1914-07-28",
+   "valid_from_precision": "attested",
+   "valid_to": "1918-11-09"
+  },
+  {
+   "equipment": "gewehr-98",
+   "polity": "imperio-alemao",
+   "valid_from": "1914-07-28",
+   "valid_from_precision": "attested",
+   "valid_to": "1918-11-09"
+  },
+  {
+   "equipment": "stahlhelm",
+   "polity": "imperio-alemao",
+   "valid_from": "1916-01-01",
+   "valid_from_precision": "year",
+   "valid_to": "1918-11-09"
+  },
+  {
+   "equipment": "fuzil-lebel-1886",
+   "polity": "franca-terceira-republica",
+   "valid_from": "1914-07-28",
+   "valid_from_precision": "attested",
+   "valid_to": "1918-11-11",
+   "valid_to_precision": "attested"
+  },
+  {
+   "equipment": "canhao-75-mle-1897",
+   "polity": "franca-terceira-republica",
+   "valid_from": "1914-07-28",
+   "valid_from_precision": "attested",
+   "valid_to": "1918-11-11",
+   "valid_to_precision": "attested"
+  },
+  {
+   "equipment": "m4-sherman",
+   "polity": "estados-unidos",
+   "valid_from": "1942-01-01",
+   "valid_from_precision": "year"
+  },
+  {
+   "equipment": "m4-sherman",
+   "polity": "reino-unido",
+   "valid_from": "1944-06-06",
+   "valid_from_precision": "attested"
+  },
+  {
+   "equipment": "m4-sherman",
+   "polity": "canada",
+   "valid_from": "1944-06-06",
+   "valid_from_precision": "attested"
+  },
+  {
+   "equipment": "m4-sherman",
+   "polity": "polonia",
+   "valid_from": "1944-08-08",
+   "valid_from_precision": "attested"
+  },
+  {
+   "equipment": "m4-sherman",
+   "polity": "gprf",
+   "valid_from": "1944-08-01",
+   "valid_from_precision": "attested"
+  },
+  {
+   "equipment": "sherman-firefly",
+   "polity": "reino-unido",
+   "valid_from": "1944-06-06",
+   "valid_from_precision": "attested"
+  },
+  {
+   "equipment": "panther",
+   "polity": "alemanha-nazista",
+   "valid_from": "1943-01-01",
+   "valid_from_precision": "year",
+   "valid_to": "1945-05-08"
+  },
+  {
+   "equipment": "tiger-i",
+   "polity": "alemanha-nazista",
+   "valid_from": "1942-01-01",
+   "valid_from_precision": "year",
+   "valid_to": "1945-05-08"
+  },
+  {
+   "equipment": "m1-garand",
+   "polity": "estados-unidos",
+   "valid_from": "1941-12-07",
+   "valid_from_precision": "attested",
+   "valid_to": "1945-09-02",
+   "valid_to_precision": "attested"
+  },
+  {
+   "equipment": "mg-42",
+   "polity": "alemanha-nazista",
+   "valid_from": "1942-01-01",
+   "valid_from_precision": "year",
+   "valid_to": "1945-05-08"
+  },
+  {
+   "equipment": "karabiner-98k",
+   "polity": "alemanha-nazista",
+   "valid_from": "1935-01-01",
+   "valid_from_precision": "year",
+   "valid_to": "1945-05-08"
+  },
+  {
+   "equipment": "lcvp-higgins",
+   "polity": "estados-unidos",
+   "valid_from": "1944-06-06",
+   "valid_from_precision": "attested"
+  },
+  {
+   "equipment": "c-47-skytrain",
+   "polity": "estados-unidos",
+   "valid_from": "1944-06-06",
+   "valid_from_precision": "attested"
+  },
+  {
+   "equipment": "hawker-typhoon",
+   "polity": "reino-unido",
+   "valid_from": "1941-09-11"
+  },
+  {
+   "equipment": "capacete-m1",
+   "polity": "estados-unidos",
+   "valid_from": "1941-01-01",
+   "valid_from_precision": "year"
+  }
+ ],
+ "unit_equipment": [
+  {
+   "unit": "secao-pesada-mgc",
+   "equipment": "tanque-mark-i",
+   "valid_from": "1916-09-15",
+   "valid_from_precision": "attested",
+   "valid_to": "1916-09-15",
+   "valid_to_precision": "attested",
+   "certainty": "verified",
+   "notes": "Companhias C e D na Batalha de Flers–Courcelette.",
+   "cite": [
+    {
+     "source": "wikipedia-british-heavy-tanks-ww1"
+    }
+   ]
+  },
+  {
+   "unit": "s-ss-pz-abt-101",
+   "equipment": "tiger-i",
+   "valid_from": "1944-06-13",
+   "valid_from_precision": "attested",
+   "valid_to": "1944-06-13",
+   "valid_to_precision": "attested",
+   "certainty": "verified",
+   "notes": "Tigers do batalhão em Villers-Bocage.",
+   "cite": [
+    {
+     "source": "ellis-1962"
+    }
+   ]
+  },
+  {
+   "unit": "2-division-blindee",
+   "equipment": "m4-sherman",
+   "valid_from": "1944-08-01",
+   "valid_from_precision": "attested",
+   "valid_to": "1944-08-25",
+   "valid_to_precision": "attested",
+   "certainty": "verified",
+   "notes": "Divisão equipada com material americano.",
+   "cite": [
+    {
+     "source": "blumenson-1961"
+    }
+   ]
+  },
+  {
+   "unit": "1-divisao-blindada-polonesa",
+   "equipment": "m4-sherman",
+   "valid_from": "1944-08-08",
+   "valid_from_precision": "attested",
+   "valid_to": "1944-08-21",
+   "valid_to_precision": "attested",
+   "certainty": "verified",
+   "cite": [
+    {
+     "source": "stacey-1960"
+    }
+   ]
+  }
+ ],
+ "camouflage_patterns": [
+  {
+   "slug": "splittertarnmuster-31",
+   "name": "Splittertarnmuster 31",
+   "name_original": "Splittertarnmuster 31 (padrão estilhaço)",
+   "applies_to": "uniform",
+   "valid_from": "1931-01-01",
+   "valid_from_precision": "year",
+   "valid_to": "1945-05-08",
+   "valid_to_precision": "attested",
+   "description": "Padrão disruptivo de quatro cores, com polígonos de arestas vivas e traços, desenvolvido na Alemanha no fim da década de 1920 e distribuído pela primeira vez ao Reichswehr em 1931. Usado depois pelas forças da Wehrmacht.",
+   "colors": [
+    {
+     "name": "Base cinza-esverdeada / bege",
+     "hex": "#a8a27a",
+     "note": "aproximação visual"
+    },
+    {
+     "name": "Marrom",
+     "hex": "#6d5039",
+     "note": "aproximação visual"
+    },
+    {
+     "name": "Verde",
+     "hex": "#4e5a3c",
+     "note": "aproximação visual"
+    }
+   ],
+   "usage_note": "Cores exibidas são aproximações para visualização; tons reais variavam por fabricante e desbotamento.",
+   "certainty": "verified",
+   "cite": [
+    {
+     "source": "wikipedia-splittertarnmuster"
+    }
+   ]
+  }
+ ],
+ "uniforms": [
+  {
+   "slug": "service-dress-britanico-1902",
+   "name": "Service Dress britânico (padrão 1902)",
+   "name_original": "Service Dress, 1902 pattern",
+   "polity": "reino-unido-1801",
+   "force": "exercito-britanico-1914",
+   "valid_from": "1902-01-01",
+   "valid_from_precision": "year",
+   "role_note": "Uniforme de campanha cáqui da infantaria e demais armas.",
+   "description": "Uniforme de campanha de lã cáqui introduzido no início dos anos 1900 (padrão de 1902), após as experiências da Segunda Guerra dos Bôeres. Usado pelo Exército Britânico durante toda a Primeira Guerra Mundial.",
+   "colors": [
+    {
+     "name": "Cáqui",
+     "hex": "#8a7a52",
+     "note": "aproximação visual"
+    }
+   ],
+   "certainty": "verified",
+   "cite": [
+    {
+     "source": "wikipedia-service-dress"
+    }
+   ]
+  },
+  {
+   "slug": "bleu-horizon",
+   "name": "Uniforme 'bleu horizon' (França)",
+   "name_original": "Tenue bleu horizon",
+   "polity": "franca-terceira-republica",
+   "force": "exercito-frances-1914",
+   "valid_from": "1915-01-01",
+   "valid_from_precision": "year",
+   "role_note": "Uniforme de campanha do exército metropolitano.",
+   "description": "Uniforme azul-acinzentado das tropas metropolitanas francesas de 1915 a 1921, que substituiu o conjunto de 1914 com calças vermelhas.",
+   "colors": [
+    {
+     "name": "Bleu horizon",
+     "hex": "#7d93a8",
+     "note": "aproximação visual"
+    }
+   ],
+   "certainty": "verified",
+   "cite": [
+    {
+     "source": "wikipedia-horizon-blue"
+    }
+   ],
+   "valid_to": "1921-01-01",
+   "valid_to_precision": "year"
+  },
+  {
+   "slug": "uniforme-feldgrau-1914",
+   "name": "Uniforme de campanha feldgrau (Exército Imperial Alemão)",
+   "name_original": "Feldgraue Uniform",
+   "polity": "imperio-alemao",
+   "force": "exercito-imperial-alemao",
+   "valid_from": "1914-07-28",
+   "valid_from_precision": "attested",
+   "role_note": "Uniforme de campanha cinza-campo.",
+   "description": "Feldgrau (cinza-campo) foi a cor oficial básica dos uniformes militares alemães do início do século XX até 1945. O modelo específico de cada túnica (p. ex. M1910, M1915) ainda não está cadastrado.",
+   "colors": [
+    {
+     "name": "Feldgrau",
+     "hex": "#6b6e58",
+     "note": "aproximação visual"
+    }
+   ],
+   "certainty": "verified",
+   "valid_to": "1918-11-09",
+   "valid_to_precision": "attested",
+   "cite": [
+    {
+     "source": "wikipedia-feldgrau"
+    }
+   ]
+  }
+ ]
+}

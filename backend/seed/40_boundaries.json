@@ -1,0 +1,24 @@
+{
+  "_comment": "Historical boundary snapshots. 'file' is relative to the data directory (DATA_DIR, default ../data). 'polity_map' links dataset labels (NAME / SUBJECTO) to curated polities; unmapped features are kept with the dataset label only.",
+  "boundary_datasets": [
+    {"slug": "historical-basemaps-1914", "name": "Fronteiras mundiais em 1914 (historical-basemaps)", "file": "boundaries/world_1914.geojson",
+     "reference_date": "1914-01-01", "valid_from": "1914-01-01", "valid_to": "1918-11-11", "source": "historical-basemaps", "license": "GPL-3.0",
+     "precision_note": "Fronteiras aproximadas; precisão declarada por feição (1 = aproximada, 2 = moderada, 3 = definida por tratado). Geometrias simplificadas (~1 km).",
+     "known_issues": "Snapshot pré-guerra: ocupações e mudanças durante a guerra (p. ex. Bélgica e norte da França ocupados) não estão representadas. O conjunto contém entidades possivelmente anacrônicas para 1914 (p. ex. 'Manchu Empire', Finlândia e Estados do Cáucaso separados).",
+     "polity_map": {
+       "United Kingdom of Great Britain and Ireland": "reino-unido-1801", "France": "franca-terceira-republica", "German Empire": "imperio-alemao",
+       "Austro-Hungarian Empire": "austria-hungria", "Russian Empire": "imperio-russo", "Ottoman Empire": "imperio-otomano", "Kingdom of Italy": "reino-de-italia",
+       "United States": "estados-unidos", "Belgium": "belgica", "Serbia": "reino-da-servia", "Bulgaria": "reino-da-bulgaria", "Empire of Japan": "imperio-do-japao",
+       "Canada": "canada", "Australia": "australia", "South Africa": "africa-do-sul"
+     }},
+    {"slug": "historical-basemaps-1938", "name": "Fronteiras mundiais em 1938 (historical-basemaps)", "file": "boundaries/world_1938.geojson",
+     "reference_date": "1938-01-01", "valid_from": "1938-01-01", "valid_to": "1939-03-14", "source": "historical-basemaps", "license": "GPL-3.0",
+     "precision_note": "Fronteiras aproximadas; precisão declarada por feição. Geometrias simplificadas (~1 km).",
+     "known_issues": "Snapshot de 1938, considerado aplicável apenas até 14 mar 1939 (antes da ocupação da Tchecoslováquia). Para datas posteriores o mapa continua a exibi-lo, mas marcado como DESATUALIZADO: anexações, ocupações e mudanças de 1939–1945 ainda não estão cadastradas. O conjunto contém rótulos anacrônicos (p. ex. 'Israel').",
+     "polity_map": {
+       "United Kingdom": "reino-unido", "France": "franca-terceira-republica", "Germany": "alemanha-nazista", "Italy": "reino-de-italia", "USSR": "uniao-sovietica",
+       "United States": "estados-unidos", "Poland": "polonia", "Canada": "canada", "Australia": "australia", "Empire of Japan": "imperio-do-japao",
+       "Union of South Africa": "africa-do-sul", "Dominion of Newfoundland": "terra-nova", "Belgium": "belgica", "Bulgaria": "reino-da-bulgaria"
+     }}
+  ]
+}
